@@ -6,21 +6,22 @@
     android:background="@color/infoPageBackgroundColor"
     android:orientation="vertical"
     android:paddingTop="8dp"
-    tools:context=".StickerPackInfoActivity">
+    tools:context="id.onyet.wastickers.StickerPackInfoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/tray_icon"
             style="@style/InfoButtonStyle"
+            android:clickable="false"
+            android:text="@string/info_screen_tray_icon"
             android:textColor="#B9B9B9"
             tools:drawableLeft="@drawable/sticker_3rdparty_web"
-            tools:drawableStart="@drawable/sticker_3rdparty_web"
-            android:clickable="false"
-            android:text="@string/info_screen_tray_icon" />
+            tools:drawableStart="@drawable/sticker_3rdparty_web" />
 
         <TextView
             android:id="@+id/view_webpage"

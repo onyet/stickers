@@ -2,8 +2,8 @@
 <resources>
     <color name="colorPrimary">@android:color/transparent</color>
     <color name="colorPrimaryDark">#BABABA</color>
-    <color name="colorAccent">#128C7E</color>
+    <color name="colorAccent">#FB1538</color>
     <color name="inactiveAddButtonColor">#B3B3B3</color>
-    <color name="infoPageBackgroundColor">#EBEBEB</color>
+    <color name="infoPageBackgroundColor">#FFFFFF</color>
     <color name="actionBarArrowColor">@color/colorAccent</color>
 </resources>
